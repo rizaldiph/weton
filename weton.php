@@ -68,17 +68,17 @@ function keterangan($weton){
 
         "Ratu" => "Identik dengan sosok yang dihormati. Pasangan ini bisa dikatakan sudah cocok dan berjodoh. Sangat dihargai dan disegani oleh tetangga maupun lingkungan sekitar. Bahkan tak sedikit orang sekitar yang iri dengan keharmonisannya dalam membina rumah tangga.",
 
-        "Jodoh" => "Pasangan ini memang ditakdirkan berjodoh. Mereka bisa saling menerima segala kekurangan maupun kelebihan masing2. Nasib rumah tangga dapat harmonis sampai tua.",
+        "Jodoh" => "Pasangan ini memang ditakdirkan berjodoh. Mereka bisa saling menerima segala kekurangan maupun kelebihan masing masing. Nasib rumah tangga dapat harmonis sampai tua.",
 
-        "Topo" => "Dalam bahasa jawa bisa diartikan bertirakat. Pasangan ini akan sering mengalami kesusahan di awal-awal membina rumah tangga, namun pada akhirnya akan bahagia. Persoalan rumah tangga bisa dari ekonomi dan lain sebagainya. Tapi setelah mempunyai anak dan cukup lama berumah tangga, hidupnya akan sukses serta bahagia.",
+        "Topo" => "Dalam bahasa jawa yang bisa diartikan bertirakat. Pasangan ini akan sering mengalami kesusahan di awal-awal membina rumah tangga, namun pada akhirnya akan bahagia. Persoalan rumah tangga bisa dari ekonomi dan lain sebagainya. Tapi setelah mempunyai anak dan cukup lama berumah tangga, hidupnya akan sukses serta bahagia.",
         
         "Tinari" => "Pasangan ini akan mendapatkan kebahagiaan. Kemudahan dalam mencari rezeki dan tidak akan hidup berkekurangan. Hidupnya juga diliputi keberuntungan.",
         
-        "Padu" => "Padu dalam bahasa jawa berarti cekcok atau pertengkaran. Rumah tangga pasangan ini akan sering mengalami pertikaian atau pertengkaran. Meski sering terjadi pertengkaran, nasib rumah tangga tidak sampai bercerai. Pertengkaran ini bahkan dipicu dari hal-hal yang bersifat sepele.",
+        "Padu" => "Padu dalam bahasa jawa berarti cekcok atau pertengkaran. Rumah tangga pasangan ini akan sering mengalami pertikaian atau pertengkaran. Meski sering terjadi pertengkaran, nasib rumah tangga ini tidak sampai bercerai. Pertengkaran ini bahkan dipicu dari hal-hal yang bersifat sepele.",
         
-        "Sujanan" => "Rumah tangga ini akan sering mengalami percekcokan & masalah perselingkuhan.",
+        "Sujanan" => "Rumah tangga ini nantinya akan sering mengalami percekcokan & masalah perselingkuhan.",
 
-        "Pesthi" => "Rumah tangga akan berjalan dgn sgt harmonis, rukun, adem, ayem, tenteram & sejahtera sampai tua. Bisa dikatakan jika ada sedikit masalah namun tidak megganggu keharmonisan.",
+        "Pesthi" => "Rumah tangga akan berjalan dengan begitu harmonis, rukun, adem, ayem, tenteram & sejahtera sampai tua. Bisa dikatakan jika ada sedikit masalah namun tidak megganggu keharmonisan.",
     ];
 
     return $keterangan[$weton];
@@ -130,7 +130,7 @@ function hdate($day,$month,$year) {
 }
 
 echo clear();
-echo "Masukkan tanggal lahir. Contoh: 17 08 1945"."\n";
+echo "Silahkan Masukkan tanggal lahir. Contoh: 17 08 1945"."\n";
 echo "----------\n";
 echo "Orang ke-1: ";
 $date1 = konversi(trim(fgets(STDIN)));
